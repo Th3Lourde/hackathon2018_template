@@ -1,0 +1,187 @@
+/* <<<<<<< HEAD */
+@media (min-width:561px) {
+/* ======= */
+/* @media (min-width:769px) { */
+/* >>>>>>> 965c6ffad524ea9119a71943b3f072c9eb961c7c */
+  #mobile-content {
+    display: none;
+  }
+}
+/* Standardize Page */
+html, body, h1, p, div {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ }
+
+ * {
+    box-sizing: border-box;
+}
+
+li {
+  margin: 25px 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 2%;
+  color: white;
+  font-size: 32px;
+  /* font-size: 32px; */
+}
+
+a:hover {
+  color:#FEE9B1;
+}
+
+video {
+  object-fit:fill;
+  width: 100%;
+  height: 100%;
+  /* width="100%" height="125%" object-fit:contain */
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+  /* margin: 25px; */
+  padding: 45px;
+}
+
+
+/* W3 */
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+/* Media Queries */
+
+/* @media (max-aspect-ratio:1/1) {
+} */
+
+
+
+
+/* NAV */
+
+/* .home-container {
+  position:relative;
+  width:100vw;
+  height:100vw;
+  max-height: 100vh;
+  max-width: 600vh;
+  background-color: grey;
+} */
+
+  .home_left {
+    width: 47vw;
+    /* height:25%; */
+    max-width: 47vw;
+    max-height: 100vh;
+    /* height:100%; */
+    height: 600vh;
+    /* background-color: black; */
+    background-color: white;
+    /* height:150px; */
+  }
+
+
+.home_right {
+  position:absolute;
+  /* float:right; */
+  background-color:#35539e;
+  /* display: inline; */
+  top: 0;
+  right: 0;
+  height: 78vh;
+  width: 53vw;
+  /* height:500px;
+  width: 1000px; */
+
+}
+
+
+.bottom-right {
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  /* background-color: #3c965e; */
+  background-color: #FEE9B1;
+  height:22vh;
+  width: 26vw;
+
+}
+
+
+/* .center-bottom {
+  position: absolute;
+  bottom: 0;
+  left:44%;
+  background-color: #aa4444;
+  background-color:#f3f3f3;
+  background-color: black;
+  height:44vh;
+  width: 30vw;
+} */
+
+#black-menu {
+  position: absolute;
+  bottom: 0;
+  left:44%;
+  background-color: #aa4444;
+  background-color:#f3f3f3;
+  background-color: black;
+  height:45vh;
+  width: 30vw;
+  /* transition: height 500ms; */
+}
+
+.center:hover {
+  height:100vw;
+}
+
+#desk-menu {
+  position: absolute;
+  bottom: 0;
+  /* background-color: grey; */
+  width: 100%;
+
+}
+
+#animateUp {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#animateUp:hover{
+  color:#FEE9B1;
+
+}
+
+#black-menu.is-active {
+  height:100vh;
+}
+
+#mymenu {
+  display:none;
+}
+
+.menu2 {
+  display:none
+}
+
+.menu2.is-active {
+  display: inline;
+}
+
+.btn-width {
+  width: 100% !important;
+}
+
+
+/* End-NAV */

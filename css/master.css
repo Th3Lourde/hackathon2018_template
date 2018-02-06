@@ -1,0 +1,103 @@
+
+/* Standardize Page */
+html, body, h1, p, div {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ }
+
+ * {
+    box-sizing: border-box;
+}
+
+/* W3 */
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+/* Media Queries */
+
+/* @media (max-aspect-ratio:1/1) {
+
+
+} */
+
+
+/* NAV */
+
+.home-container {
+  position:relative;
+  width:100vw;
+  height:100vw;
+  max-height: 100vh;
+  max-width: 600vh;
+  background-color: grey;
+}
+
+.home_left {
+  width: 47vw;
+  /* height:25%; */
+  max-width: 47vw;
+  max-height: 100vh;
+  /* height:100%; */
+  height: 600vh;
+  /* background-color: #918282; */
+  background-color: white;
+  /* height:150px; */
+}
+
+.home_right {
+  position:absolute;
+  /* float:right; */
+  background-color:#f3f3f3;
+  /* display: inline; */
+  top: 0;
+  right: 0;
+  height: 78vh;
+  width: 53vw;
+  /* height:500px;
+  width: 1000px; */
+
+}
+
+
+.bottom-right {
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  background:#f3f3f3;
+  
+  /* background-color: #3c965e; */
+  /* background-color: #FEE9B1; */
+  height:22vh;
+  width: 26vw;
+
+}
+
+
+.center-bottom {
+  position: absolute;
+  bottom: 0;
+  left:660px;
+  background-color: #aa4444;
+  /* background-color: black; */
+  /* height:68px;
+  width:86px; */
+  height:43vh;
+  width: 30vw;
+}
+
+.nav-text {
+  color:white;
+}
+
+.home-image {
+
+}
+
+
+
+/* End-NAV */
