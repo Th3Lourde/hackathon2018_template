@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+
+nav {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  text-align: center;
+}
+
+.menu {
+  /* background-color: grey; */
+  margin: 0 auto;
+  height: 5vh;
+  padding-top: 5vh;
+  color:white;
+  font-weight: 700
+}
+
+.menu-list {
+  display: inline;
+  list-style: none;
+  margin: 0 auto;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin: 0 auto;
+  font-size: 40px;
+  padding-right: 2.5vw;
+  padding-left:2.5vw;
+}
+
+#back-arrow {
+  /* background-color: blue; */
+  height: 10vh;
+  width: 100vw;
+  font-size: 64px;
+}
+.arrow {
+  font-size: 100px;
+  padding-left: 10vw;
+}
+
+
+
+#menu-info {
+  /* background-color: red; */
+  height: 70vh;
+  width: 100vw;
+}
+
+.info-container {
+  /* background-color: #fee9b1; */
+  width: 80%;
+  height: 65vh;
+  margin: 0 auto;
+
+}
+
+.foodName {
+  position: absolute;
+  /* background-color: blue; */
+  font-size: 70px;
+  height: 8vh;
+  font-weight: 600;
+  z-index: 9;
+}
+
+.menu-container {
+  position: absolute;
+  /* background-color:green; */
+  background-color: #fee9b1;
+  height: 60vh;
+  width: 80vw;
+  z-index: 5;
+  /* margin: auto 0; */
+  bottom: 17vh;
+  left: 10vw;
+  /* color: black !important; */
+
+}
+
+.menu-options {
+  /* background-color: black; */
+  height: 50vh;
+  margin-top: 5vh;
+  color: black;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  /* width: 80vw; */
+}
+
+.menu-text {
+  padding-bottom: 5vh;
+}
+
+
+footer {
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+}
+
+#mobile-contact {
+  float: left;
+  padding: 5vw 5vh;
+
+  /* color:white !important; */
+}
+
+#final-message {
+  float: right;
+  padding: 5vw 5vh;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-style: #fee9b1;
+}
+
+
+/* Place Holder */

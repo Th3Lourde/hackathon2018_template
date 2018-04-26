@@ -1,17 +1,18 @@
 /* <<<<<<< HEAD */
-@media (min-width:561px) {
+@media only screen and (min-width:561px) {
 /* ======= */
 /* @media (min-width:769px) { */
 /* >>>>>>> 965c6ffad524ea9119a71943b3f072c9eb961c7c */
   #mobile-content {
     display: none;
   }
-}
+
 /* Standardize Page */
 html, body, h1, p, div {
  margin: 0px;
  padding: 0px;
  border: 0px;
+ font-family: 'Montserrat', sans-serif;
  }
 
  * {
@@ -19,8 +20,13 @@ html, body, h1, p, div {
 }
 
 li {
-  margin: 25px 20px;
+  margin: 3% 20px;
   text-align: center;
+  padding: 3%;
+}
+
+p {
+  font-weight: 400;
 }
 
 a {
@@ -31,6 +37,15 @@ a {
   /* font-size: 32px; */
 }
 
+img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+
 a:hover {
   color:#FEE9B1;
 }
@@ -39,14 +54,13 @@ video {
   object-fit:fill;
   width: 100%;
   height: 100%;
-  /* width="100%" height="125%" object-fit:contain */
 }
 
 .container {
   width: 80%;
   text-align: center;
   /* margin: 25px; */
-  padding: 45px;
+  /* padding: 45px; */
 }
 
 
@@ -85,6 +99,7 @@ video {
     /* height:100%; */
     height: 600vh;
     /* background-color: black; */
+    /* background-color: green; */
     background-color: white;
     /* height:150px; */
   }
@@ -97,7 +112,7 @@ video {
   /* display: inline; */
   top: 0;
   right: 0;
-  height: 78vh;
+  height: 82vh;
   width: 53vw;
   /* height:500px;
   width: 1000px; */
@@ -111,7 +126,7 @@ video {
   right: 0;
   /* background-color: #3c965e; */
   background-color: #FEE9B1;
-  height:22vh;
+  height:18vh;
   width: 26vw;
 
 }
@@ -135,19 +150,19 @@ video {
   background-color: #aa4444;
   background-color:#f3f3f3;
   background-color: black;
-  height:45vh;
+  /* height:50vh; */
+  height:24vh;
   width: 30vw;
-  /* transition: height 500ms; */
+  transition: height 500ms;
 }
 
-.center:hover {
+/* .center:hover {
   height:100vw;
-}
+} */
 
 #desk-menu {
   position: absolute;
   bottom: 0;
-  /* background-color: grey; */
   width: 100%;
 
 }
@@ -156,6 +171,7 @@ video {
   text-align: center;
   color: white;
   font-size: 30px;
+  padding-bottom: 8vh;
 }
 
 #animateUp:hover{
@@ -165,10 +181,12 @@ video {
 
 #black-menu.is-active {
   height:100vh;
+  transition: height 500ms;
 }
 
 #mymenu {
   display:none;
+  padding-top: 25%;
 }
 
 .menu2 {
@@ -183,5 +201,265 @@ video {
   width: 100% !important;
 }
 
+#contact {
+  color:black;
+  text-align: center;
+  padding: 13% 0%;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
 
-/* End-NAV */
+#contact:hover {
+  font-size: 36px;
+  padding: 12% 16%;
+  /* color:white; */
+}
+
+.know-arrow {
+  padding: 0;
+  font-size: 35px;
+  padding-top: 5vh;
+  padding-left: 2vw;
+}
+
+.arrow {
+  padding-left: 2vw;
+  font-size: 44px;
+  /* color: white; */
+}
+
+.arrow:hover {
+  padding-left: 5vw;
+}
+
+.message-head {
+  /* float: right; */
+  padding-top: 45vh;
+  padding-left: 4vw;
+}
+
+.message-text {
+  padding-top: 3vh;
+  padding-left: 6vw;
+  /* width: 90%; */
+}
+
+.landing-page-message {
+  /* position:relative; */
+  /* height: 20vh; */
+  /* width: 15vw; */
+  width: 100%;
+  height:100vh;
+  /* background-color: white; */
+  margin: auto 0;
+  /* width: 100%; */
+  z-index: 5;
+  /* margin: 5vw; */
+  /* padding-left: 5vw; */
+}
+
+.grey-border {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+
+}
+
+.content-container {
+  /* padding-top: 50%; */
+  height: 100vh;
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  padding-left: 10%;
+  padding-top: 6%;
+  /* vertical-align:bottom; */
+}
+
+.menu-content {
+  height: 100vh;
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.title {
+  /* background-color: #f2f2f2; */
+  position:absolute;
+  /* top: 0; */
+  padding: 0;
+  /* margin-bottom: 5%; */
+  margin: 0;
+  /* line-height: 30pt; */
+  font-size: 45px;
+  color:black;
+  /* height: 5vh; */
+  width: 35%;
+  z-index: 5;
+
+}
+
+.title-text {
+  /* float: left; */
+  background-color: transparent;
+  font-size: 42px;
+  text-align: left !important;
+  font-weight: 700;
+  /* margin-bottom: 8%; */
+  /* padding-bottom: 5vh; */
+}
+
+.description {
+  color:#FEE9B1;
+  background-color: #FEE9B1;
+  width: 75%;
+  height: 40vh;
+  padding-top: 8%;
+  margin-top: 1%;
+  /* width: 100vw; */
+  color: black;
+  z-index: 1;
+
+}
+
+.description.start {
+  color:yellow;
+  background-color: #FEE9B1;
+  width: 75%;
+  height: 40vh;
+  padding-top: 8%;
+  margin-top: 1%;
+  /* width: 100vw; */
+  color: black;
+  z-index: 1;
+
+}
+
+
+
+.know-more {
+  background-color: black;
+  color:white;
+  width: 65%;
+  height:15%;
+}
+
+.description-text {
+  /* background-color: brown; */
+  margin: 0;
+  /* height: 5%; */
+  /* width: 25%; */
+  padding-left: 3vw;
+  padding-right: 5vw;
+  padding-bottom: 1vh;
+  font-size: 30px;
+  line-height: 1.5;
+  /* color:white; */
+}
+
+.img {
+  float: right;
+  position: absolute;
+  left: 45vw;
+  /* right:-13%; */
+  /* top: 15%; */
+  margin-top: 30.5vh;
+  height: 35vh;
+  /* background-color: grey; */
+  width: 30vw;
+  z-index: 5;
+  /* float: right; */
+  padding-left: 15vw;
+  /* bottom:0; */
+}
+
+.moar-space {
+  margin: 2%;
+}
+
+.know-more-text {
+  padding: 5% 10%;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.know-more-text:hover {
+  font-size: 28px;
+  padding: 4.5% 8%;
+  /* color:white; */
+}
+
+/* Image CSS */
+.cookies {
+  height: 125vh !important;
+  padding-top: 6.375vh;
+  padding-left: 12%;
+}
+
+.cakes {
+  height: 125vh !important;
+  padding-left: 12%;
+  padding-top: 6.375vh;
+
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 45vh;
+  background-color: black;
+}
+
+.footer-link {
+  /* background-color: white; */
+  width: 40%;
+  height:25vh;
+  padding-top: 3vh;
+}
+
+.footer-head {
+  color: white;
+  padding-left: 8vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.footer-list {
+  color: white;
+  padding: 0px;
+  text-align: left;
+  padding-left: 10vw;
+  font-size: 30px;
+}
+
+.footer-list-ul {
+  padding-bottom: 10vh;
+}
+
+.footer-conclusion {
+  float:right;
+  padding: none;
+  padding-right: 5vw;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.heart {
+  font-size: 125%;
+}
+
+#contact-link {
+  color: black;
+}
+
+.mobile-content {
+  display: none;
+}
+
+
+}
+
+/* Space */

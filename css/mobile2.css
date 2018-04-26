@@ -1,0 +1,149 @@
+@media only screen and (max-width:1024px) and (min-width:560px) {
+
+
+.content-container {
+  padding: 0;
+}
+
+/* #coffee, */
+/* #cookies, */
+/* #cakes,  */
+/* #burritos, */
+/* footer {
+  display: none;
+} */
+
+video {
+  z-index: 5 !important;
+}
+
+.home_right {
+  left:0;
+  /* margin-top: 5vh; */
+  height: 100vh;
+  bottom: 0;
+  top:auto;
+  width: 75vw;
+  /* bottom:; */
+  background-color: blue;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0vh;
+  width: 45vw;
+  height: 25vh;
+  right: 0;
+  /* top: 0; */
+  /* display: none; */
+  z-index: 2;
+}
+
+
+
+#black-menu {
+  width: 45vw;
+  left: auto;
+  right: 0;
+  bottom: 25vh;
+  top: 0;
+  height:80vh;
+  transition: height 500ms;
+  display: inline;
+}
+
+#black-menu.is-active {
+  height:80vh;
+  transition: height 500ms;
+  display: inline;
+}
+
+
+
+#mymenu {
+  display: block;
+}
+
+#home-page {
+  display: block;
+}
+
+#contact {
+  padding: 10% 0;
+}
+
+#mymenu {
+  padding-top: 5vh;
+}
+
+.home_left {
+  position: absolute;
+  /* z-index: 4; */
+  top: 0;
+  left: 0;
+  width: 70vw !important;
+}
+
+.message-head {
+  padding: 0;
+  color: white;
+}
+
+.message-text {
+  float: right;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  display: none;
+}
+
+.landing-page-message {
+  width: 55vw;
+  padding: 10%;
+  padding-top: 15%;
+  opacity: .75;
+  height:25vh;
+  /* background-color: grey; */
+}
+
+#greatCoffee {
+  padding-top: 35vh;
+}
+
+
+.space {
+  padding-top: 115vh;
+  background-color: white !important;
+}
+.description {
+  width: 75vw;
+}
+
+.know-more {
+  width: 75vw;
+}
+
+.img {
+  left:60vw;
+  height: 50vh;
+  padding-left: 5vw;
+}
+
+.content-container {
+  background-color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Place Holder */
+
+}
