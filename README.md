@@ -1,4 +1,4 @@
-# Th3Lourde.github.io
+
 Website Created During 2018 Hackathon using Html, Css and Js
 
 People who contributed to this project:
